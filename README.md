@@ -63,7 +63,12 @@ PARA PODER COMPILAR!!
 Abrir la terminal en Visual Studio Code y correr el siguiente comando
 
 gcc simpletron.c -o simpletron.exe
+
+PARA EJECUTAR
 .\simpletron.exe
+
+O EN POWERSHELL
+gcc simpletron.c -o simpletron.exe; if ($LASTEXITCODE -eq 0) { .\simpletron.exe }
 
 --------------------------------------------------------------------
 
