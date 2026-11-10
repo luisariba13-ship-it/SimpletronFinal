@@ -58,7 +58,14 @@ El simulador utiliza diferentes códigos para representar las instrucciones que 
 | `42` | BRANCHZERO |
 | `43` | HALT |
 
----
+ATENCIÓN
+PARA PODER COMPILAR!!
+Abrir la terminal en Visual Studio Code y correr el siguiente comando
+
+gcc simpletron.c -o simpletron.exe
+.\simpletron.exe
+
+--------------------------------------------------------------------
 
 ## Lenguaje utilizado
 
