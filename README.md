@@ -79,111 +79,75 @@ Primera y segunda pasada del compilador.
 El simulador utiliza los siguientes códigos para identificar las instrucciones que puede ejecutar.
 
 Código
-
 Operación
-
 Descripción
 
 10
-
 READ
-
 Leer un número
 
 11
-
 WRITE
-
 Mostrar un número
 
 20
-
 LOAD
-
 Cargar un valor al acumulador
 
 21
-
 STORE
-
 Guardar el acumulador en memoria
 
 30
-
 ADD
-
 Sumar
 
 31
-
 SUBTRACT
-
 Restar
 
 32
-
 DIVIDE
-
 Dividir
 
 33
-
 MULTIPLY
-
 Multiplicar
 
 34
-
 MOD
-
 Calcular el residuo
 
 35
-
 POWER
-
 Calcular una potencia
 
 40
-
 BRANCH
-
 Realizar un salto incondicional
 
 41
-
 BRANCHNEG
-
 Saltar si el acumulador es negativo
 
 42
-
 BRANCHZERO
-
 Saltar si el acumulador es cero
 
 43
-
 HALT
-
 Finalizar la ejecución
 
 44
-
 NEWLINE
-
 Insertar un salto de línea
 
 45
-
 WRITE_STRING
-
 Mostrar una cadena de texto
 
 46
-
 READ_STRING
-
 Leer una cadena de texto
 
 ---
@@ -206,6 +170,10 @@ El simulador utiliza diferentes códigos para representar las instrucciones que 
 | `41` | BRANCHNEG |
 | `42` | BRANCHZERO |
 | `43` | HALT |
+
+---
+
+## INSTRUCCIONES DE COMPILACIÓN
 
 ATENCIÓN
 PARA PODER COMPILAR!!
