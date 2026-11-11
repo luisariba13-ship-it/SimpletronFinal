@@ -1,6 +1,0 @@
-10 rem Prueba de condiciones y ciclos
-20 let a = 1
-30 print a
-40 let a = a + 1
-50 if a <= 5 goto 30
-60 end
