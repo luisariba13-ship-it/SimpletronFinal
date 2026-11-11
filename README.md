@@ -177,6 +177,8 @@ El simulador utiliza diferentes códigos para representar las instrucciones que 
 
 ATENCIÓN
 PARA PODER COMPILAR!!
+Abrir la carpeta .simp 
+
 Abrir la terminal en Visual Studio Code y correr el siguiente comando
 
 gcc simpletron.c -o simpletron.exe
